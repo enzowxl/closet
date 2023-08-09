@@ -11,4 +11,7 @@ export const IMAGES = {
   gallery: require("../../assets/sign/gallery.png"),
   galleryOpt: require("../../assets/sign/galleryOpt.png"),
   cameraOpt: require("../../assets/sign/cameraOpt.png"),
+  menu: require("../../assets/header/menu.png"),
+  personImage: require("../../assets/util/1.jpg"),
+  dots: require("../../assets/header/dots.png"),
 };

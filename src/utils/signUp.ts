@@ -29,7 +29,3 @@ export async function Camera(updatePhoto: any) {
 export function navigate({ navigation, screen }: any) {
   navigation.navigate(screen);
 }
-
-export function ButtonSingUp({ data }: any) {
-  console.log(data);
-}

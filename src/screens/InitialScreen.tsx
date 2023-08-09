@@ -1,5 +1,5 @@
 import { Image, StyleSheet, Text, View } from "react-native";
-import { COLORS, IMAGES } from "../constants";
+import { COLORS, IMAGES, SCREENS_NO_AUTH } from "../constants";
 import ButtonSign from "../components/ButtonSign";
 import TextSign from "../components/TextSign";
 import TitleSign from "../components/TitleSign";
@@ -12,11 +12,11 @@ export default function InitialScreen({ navigation }: any) {
       <TitleSign mBottom={10} title={"Swap"} title_2={"Closet"} />
       <Text style={styles.subtitle}>Build your closet and change parts</Text>
       <ButtonSign
-        onPress={() => navigate({ navigation, screen: "SignUp" })}
+        onPress={() => navigate({ navigation, screen: SCREENS_NO_AUTH.SIGNUP })}
         title={"Get Started"}
       />
       <TextSign
-        onPress={() => navigate({ navigation, screen: "SignIn" })}
+        onPress={() => navigate({ navigation, screen: SCREENS_NO_AUTH.SIGNIN })}
         title={"Have account? "}
         title_2={"Sign In"}
       />

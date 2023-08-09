@@ -6,7 +6,7 @@ import {
   RobotoSlab_600SemiBold,
   RobotoSlab_700Bold,
 } from "@expo-google-fonts/roboto-slab";
-import { Roboto_400Regular } from "@expo-google-fonts/roboto";
+import { Roboto_400Regular, Roboto_700Bold } from "@expo-google-fonts/roboto";
 
 import Provider from "./provider/auth";
 import Routes from "./routes/index.routes";
@@ -19,6 +19,7 @@ export default function App() {
     RobotoSlab_600SemiBold,
     RobotoSlab_700Bold,
     Roboto_400Regular,
+    Roboto_700Bold,
   });
 
   if (!fonts) return <Splash />;
